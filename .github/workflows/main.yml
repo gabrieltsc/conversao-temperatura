@@ -40,5 +40,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            gabrieltsc/aula-conversao-temperatura:v1
+            gabrieltsc/aula-conversao-temperatura:${{github.run_number}}
             gabrieltsc/aula-conversao-temperatura:latest
